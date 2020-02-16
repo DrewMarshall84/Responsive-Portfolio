@@ -1,0 +1,246 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif, 'Helvetica Neue'; 
+    font-size: 18px;
+    color: #333;
+    background-image: url("../images/triangle-mosaic.png");
+}
+
+.top-section {
+    background: #ffffff;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+nav {
+    width: 66%;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 15.5px;
+    width: 25%;
+    background-color:#4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    float: left;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    float:right;
+}
+
+li {
+    margin-left: 25px;
+    float: left;    
+}
+
+li a {
+    display: block;
+    color: blue;
+}
+
+a:link {
+    color: blue;
+}
+
+.container {
+    clear: both;
+    width: 66%;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: white;
+    border-color: #cccccc;
+    border-style: solid;
+    color: #777777;
+}
+
+h2 {
+    padding: 10px;
+    margin: 15px;
+    border-bottom-style: solid;
+    border-color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#bio-image {
+    width: 200px;
+    margin: 0 10px;
+    padding: 0 15px;
+    float: left;
+}
+
+p {
+    padding: 0 15px;
+    margin: 10px;
+    line-height: 25px;
+}
+
+footer {
+    position: fixed;
+    /* left: 0; */
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0 5px 0;
+    /* margin: 0; */
+    border-top: solid;
+    border-color: #4aaaa5;
+    border-width: 10px;
+    background-color: #666666;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+}
+
+form {
+    Padding: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#message {
+    height:200px;
+}
+
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    position: relative;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .text-box {
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    background-color:  #4aaaa5;
+    color: white ;
+    width: 84.75%;
+    height: 10%;
+}
+
+.text-box h5 {
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+}
+  .container img {
+    width: 250px;
+    margin: 10px 35px;
+}
+
+.project-images {
+    height: 250px;
+}
+
+
+@media screen and (max-width: 980px) {
+    nav {
+        margin-left: 100px;
+    }
+
+    h1 {
+        width: 35%;
+    }
+
+    .container {
+        margin-left: 100px;
+        width: 65%
+    }
+
+    .row img {
+        margin: 10px 30px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        margin-left: 50px;
+    }
+
+    h1 {
+        width: 45%;
+    }
+
+    ul {
+        width: 25%;
+        padding: 15px;
+    }
+
+    .container {
+        margin-left: 50px;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        width: 100%;
+        margin-left: 0px;
+    }
+    h1 {
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    ul {
+        float: none;
+        margin: 0 auto;
+        width: 70%;
+        padding: 15px;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    #bio-image {
+        width: 90%;
+        float: none;
+        margin: 0px;
+    }
+    .row img {
+        margin-left: 25px;
+}
